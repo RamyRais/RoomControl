@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="RoomControlApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Room Control</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/css/main.css">
+  </head>
+  <body>
+
+    <div ng-include="'app/common/views/navbar.html'"></div>
+    <div ng-include="'app/common/views/header.html'"></div>
+    <div ui-view class="container-fluid"></div>
+
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="vendor/oclazyload/dist/ocLazyLoad.min.js"></script>
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/d3/d3.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/routes.js"></script>
+    <script src="app/config/config-dev.js"></script>
+  </body>
+</html>

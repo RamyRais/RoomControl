@@ -1,0 +1,13 @@
+{
+  "name": "RoomControl",
+  "private": true,
+  "version": "0.0.1",
+  "appPath": "public/src/app",
+  "dependencies": {
+    "angular": "~1.4.9",
+    "angular-ui-router": "~0.2.17",
+    "oclazyload": "^1.0.9",
+    "bootstrap": "^3.3.6",
+    "d3": "^3.5.15"
+  }
+}
